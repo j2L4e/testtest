@@ -2,6 +2,171 @@ apiVersion: v1
 entries:
   dashboard:
   - apiVersion: v2
+    created: "2023-04-06T14:11:36.590657745+02:00"
+    dependencies:
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 039e76aa44ef7530c7400e14ba946bc780531d3f738b299340426d1354430340
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.68.1/dashboard-1.68.1.tgz
+    version: 1.68.1
+  - apiVersion: v2
+    created: "2023-04-06T14:11:36.334167176+02:00"
+    dependencies:
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 7f09d805ad5d48c90bf5614329e427282ac3eb18f1a52c3b01a5b902782d5822
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.68.0/dashboard-1.68.0.tgz
+    version: 1.68.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:36.105228595+02:00"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: c02a32662f834c8a2be4f72ed6c33f9b68b91127b995e9b2c2b53dfe2d379af8
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.67.0/dashboard-1.67.0.tgz
+    version: 1.67.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:35.836832378+02:00"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 093651ce5c4f7d349ae3fdb52a26da764e3f342069a97715bff25178fd44b9f9
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.66.1/dashboard-1.66.1.tgz
+    version: 1.66.1
+  - apiVersion: v2
+    created: "2023-04-06T14:11:35.568180283+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: fc69f894badf7d334e56e3e013ceb72b8cb17ec3cadc9eb4c7779af371592858
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.66.0/dashboard-1.66.0.tgz
+    version: 1.66.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:35.264674857+02:00"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 7e1d33554fc2f1c3ba9fa2c67a6934b527ee89f7e760699e76f3555fa82625a9
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.65.0/dashboard-1.65.0.tgz
+    version: 1.65.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:35.001125335+02:00"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 7e9fed5b936ef234ce93ae5564d56b2a7e7c3f2f0e06f3c5a20b13293a95558d
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.64.0/dashboard-1.64.0.tgz
+    version: 1.64.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:34.768261839+02:00"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 94a956bf77971907b9f872eeaf447a90ae8c09eae791e7a7f343e3cc2cd4474a
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.63.0/dashboard-1.63.0.tgz
+    version: 1.63.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:34.523876272+02:00"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: f5e8ac3a67e362728b864f66ab3f969baa70cc41be4691135e03f978835a4aa8
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.62.0/dashboard-1.62.0.tgz
+    version: 1.62.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:34.282535879+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 05d833241de005df7fdaf4cf9430888b5f3631f16eb1a72538e4693a8a8bcc9b
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.61.3/dashboard-1.61.3.tgz
+    version: 1.61.3
+  - apiVersion: v2
+    created: "2023-04-06T14:11:33.984407617+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: c79043bdcc8d5d63744ed99ef0e2f031ad802c9957f5aaa2dfba57a010622a7a
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.61.2/dashboard-1.61.2.tgz
+    version: 1.61.2
+  - apiVersion: v2
+    created: "2023-04-06T14:11:33.744439969+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 5f3a1bcac5a534606a9341aafb146877d4b9d8c20383e2c2cd3ea2ad94831f66
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.61.1/dashboard-1.61.1.tgz
+    version: 1.61.1
+  - apiVersion: v2
     created: "2023-04-05T12:29:52.148074045+02:00"
     description: A Helm chart for Gardener dashboard
     digest: 6c7a47575da62e3ae588c8e2318266a75337b5af58a9e72b0ec6185925f17f12
@@ -9,4 +174,60 @@ entries:
     urls:
     - https://github.com/j2L4e/testtest/releases/download/dashboard-1.61.0/dashboard-1.61.0.tgz
     version: 1.61.0
-generated: "2023-04-05T12:29:55.249419286+02:00"
+  - apiVersion: v2
+    created: "2023-04-06T14:11:33.504989239+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 5df559200581b1123e8986d0718550c15a505831d32b8a1b7ebc08958fabb5bb
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.60.0/dashboard-1.60.0.tgz
+    version: 1.60.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:33.241828821+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 5704456043fd4af15cc093ec4fe7e85fc3f54b17144757e919a9981ce1f8d6c6
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.59.0/dashboard-1.59.0.tgz
+    version: 1.59.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:32.968187677+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: decfadb989dda8137f0404ef6cd6fc5b261ebb0c304bc848ca283ef80b8902e8
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.58.0/dashboard-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:32.721456336+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 817d93ffc609d0440c91525495b18c1296cab6053a357777fc15805f1a7b6b6a
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.57.0/dashboard-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:32.321201435+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 335b0a130b7912e1f693b639d5f2744ce851bce90990b3a733ac5c9b89a21d70
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.56.0/dashboard-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    created: "2023-04-06T14:11:32.037878233+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 5730a669d3323d127bb78fd7b90edbf40e7efaf286bfe493c6320b8430f84f07
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.55.1/dashboard-1.55.1.tgz
+    version: 1.55.1
+  - apiVersion: v2
+    created: "2023-04-06T14:11:31.774673609+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 8cdd70951ecb02b7a171471b479b686867e3072af214d6ff1fac72afc3eed40d
+    name: dashboard
+    urls:
+    - https://github.com/j2L4e/testtest/releases/download/dashboard-1.55.0/dashboard-1.55.0.tgz
+    version: 1.55.0
+generated: "2023-04-06T14:11:36.590982423+02:00"
